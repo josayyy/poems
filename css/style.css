@@ -20,7 +20,7 @@ section {
   /* Give background image */
   height: auto;
   width: auto;
-  background-image: url("/Assets/Images/389.png");
+  background-image: url("../Assets/Images/389.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
