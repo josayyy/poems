@@ -4,6 +4,7 @@
 
 body {
   font-family: "comfortaa", sans-serif;
+  background-attachment: fixed;
 }
 
 .pacifico {
@@ -32,6 +33,7 @@ section {
 #header p {
   font-size: small;
   border-radius: 1rem;
+  width: 20rem;
 }
 
 h1.pacifico {
