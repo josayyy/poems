@@ -16,16 +16,26 @@ section {
 }
 
 /* Header */
+#header-section {
+  /* Give background image */
+  height: auto;
+  width: auto;
+  background-image: url("/Assets/Images/389.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 #header {
   flex-direction: column;
+}
+#header p {
+  font-size: small;
+  border-radius: 1rem;
 }
 
 h1.pacifico {
   font-weight: 700;
-}
-
-#header p {
-  font-size: small;
 }
 
 /* Carousel Sections */
