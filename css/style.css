@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  content: "";
+  height: 20px;
+}
+
+body {
+  font-family: "comfortaa", sans-serif;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+/* Sections General */
+#header-section {
+  padding: 10px;
+}
+
+/* Header */
+#header {
+  flex-direction: column;
+}
+
+/* Carousel Sections */
+#poems-section {
+  height: 100vh;
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-item p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+pre {
+  font-family: "comfortaa", sans-serif;
+  font-size: 0.65rem;
+}

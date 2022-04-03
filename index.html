@@ -1,53 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I love you Unay Bee </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Page content -->
-    <div class="background">
-        <!-- Header -->
-        <div class="header display-flex">
-            <h1>
-                I love you Unay Bee
-                <i class="fa-solid fa-heart fa-beat"></i>
-            </h1>  
-        </div>
-        
-        <!-- Carousel Cards -->
-        <div id="poems" class="display-flex">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Cup Of Coffee</h3>
-                    <span class="card-text"> What a cup of coffee means to me, from you </span>
-                    <br>
-                    <span class="card-text"> My life is made brighter and I'm inspired </span>
-                    <br>
-                    <span class="card-text"> And each goal seems easier to pursue </span>
-                    <br>
-                    <span class="card-text"> As I sip this coffee that's so admired. </span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I love you Unay Bee</title>
 
-                    <br>
-                    <br>
-                    
-                    <span class="card-text"> Before each sip, I sit and think </span>
-                    <br>
-                    <span class="card-text"> About the last sip and how good it felt </span>
-                    <br>
-                    <span class="card-text"> I love this coffee and I take another drink </span>
-                    <br>
-                    <span class="card-text"> And once again, my heart just melts </span>
-                </div>
-            </div>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FA Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- Custom bootstrap scss and custom css styles -->
+    <link rel="stylesheet" href="css/myCustom.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-white">
+    <!-- Header -->
+    <section id="header-section" class="bg-dark text-white text-center">
+      <div class="container">
+        <div id="header" class="d-flex d-md-flex-none">
+          <h1 class="pacifico">
+            I love you Unay Bee
+            <i class="fa-solid fa-heart fa-beat text-primary"></i>
+          </h1>
+          <p class="my-3">
+            You're always in my mind and in my heart, You're always going to be
+            to me MSSPB, And I'll love you now, now and forever
+          </p>
         </div>
-    </div>
-</body>
+      </div>
+    </section>
+
+    <!-- Carousel Cards -->
+    <section id="poems-section" class="m-auto fw-100 fh-100">
+      <div
+        id="poems"
+        class="carousel carousel-dark slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <!-- C-content -->
+        <div class="carousel-inner text-center overflow-visible">
+          <div
+            class="carousel-item active text-center"
+            data-bs-interval="20000"
+          >
+            <h4 class="pacifico text-primary pb-3">My Cup Of Coffee</h4>
+            <pre class="text-start">
+              What a cup of coffee means to me, from you 
+              My life is made brighter and I'm inspired 
+              And each goal seems easier to pursue 
+              As I sip this coffee that's so admired. 
+              Before each sip, I sit and think 
+              About the last sip and how good it felt 
+              I love this coffee and I take another drink 
+              And once again, my heart just melts
+            </pre>
+          </div>
+          <div
+            class="carousel-item bg-dark text-white text-center"
+            data-bs-interval="20000"
+          >
+            <h4 class="pacifico pb-3">I See You In The Clouds</h4>
+            <pre class="text-start">
+              In the fresh day I was laying down soaking 
+              up the light 
+              Watching the fluffy clouds pass by 
+              And as I, looked up I saw something in the light 
+              A familiar shape forming in the cloud, oh my 
+              Your beautiful face, I know I see it there 
+              Around it, the clouds shape hearts and flowers 
+              Your smile floating so gently without a care 
+              I could lay here and stare at you for hours
+            </pre>
+          </div>
+          <div class="carousel-item text-center" data-bs-interval="20000">
+            <h4 class="pacifico text-primary pb-3">The One</h4>
+            <pre class="text-start">
+              Sunlight shining down on a field of flowers 
+              Where each is unique in their own way 
+              Encounter, with the one that has what's ours
+              Entertaining me with a whisper, Josayyy 
+              Together with her, is where I want to stay 
+
+              Under the Sun's bright warm light 
+              No other person can make me feel I've won 
+              And her love just fills me with pride 
+              Yey, for I've found the one
+            </pre>
+          </div>
+        </div>
+
+        <!-- C-controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#poems"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#poems"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Bootstrap bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="js/index.js"></script>
+  </body>
 </html>

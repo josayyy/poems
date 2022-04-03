@@ -1,0 +1,21 @@
+{
+  "name": "test-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "bootstrap": "^5.1.3",
+    "sass": "^1.49.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josayyy/poems.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
